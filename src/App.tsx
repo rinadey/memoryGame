@@ -309,14 +309,6 @@ export default function App() {
 
       {/* Main Game Arena */}
       <main className="flex-1 flex flex-col items-center justify-between py-4 sm:py-6 px-3 sm:px-4 max-w-5xl mx-auto w-full">
-        {/* Subtle IEEE Sub-header */}
-        <div className="text-center mb-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#e7eaf9] dark:bg-[#0a2184]/70 border border-[#98abe6]/60 dark:border-[#4d6dd4]/40 text-[#071860] dark:text-[#9cffc9] text-xs font-bold tracking-tight">
-            <span>IEEE Student Branch [Female]</span>
-            <span>·</span>
-            <span>Memory Challenge</span>
-          </div>
-        </div>
 
         {/* HUD Statistics */}
         <GameHUD
