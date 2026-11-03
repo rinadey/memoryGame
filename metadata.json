@@ -1,0 +1,6 @@
+{
+  "name": "Memory Matching Cards Game",
+  "description": "A formal, minimal, and elegant memory card matching game with 3 progressive difficulty levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-ieee-tint: #e7eaf9;
+  --color-ieee-light: #98abe6;
+  --color-ieee-mid: #4d6dd4;
+  --color-ieee-blue: #012dc1;
+  --color-ieee-navy: #0a2184;
+  --color-ieee-dark: #071860;
+  --color-ieee-mint: #9cffc9;
+}
+
+@layer base {
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+    background-color: #071860;
+    color: #e7eaf9;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+/* Card 3D Flip Mechanics */
+.perspective-800 {
+  perspective: 800px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
